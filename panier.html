@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="panier.css">
+  <title>panier</title>
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <section id="header">
+    <h1>Sh optique</h1>
+
+    <div> 
+        <ul id="barre-menu">
+            <li><a href="index.php"><i class='bx bx-home'></i>Accueil</a></li>
+            
+           
+            <li><a href=""><i class='bx bxl-product-hunt'></i>Categorie</i></a>
+              <div class="sub_menu">
+                <ul>
+                <li><a href="Femme.html">Femme</a></li>
+                <li><a href="homme.html">Homme</a></li>
+                <li><a href="enfant.html">Enfant</a></li>
+                </ul>  
+              </div>
+            </li>
+            
+
+            <li><a href="accessoires.html"><i class='bx bx-glasses'></i>Accessoires</a></li>
+            <li><a href="aide.html"><i class='bx bx-help-circle'></i>Aide</a></li>
+
+            <form action="resultat.php" method="post">
+        <div  class="recherche" >
+               <input class="recherche-text" type="text" name="search" placeholder="écrivez votre recherche">
+               <a class="recherche-btn"> <button type="submit" name="rechercher" ></button></a>
+               <i class='bx bx-search-alt-2'></i></a>
+        </div></form>
+            <li><a href="panier.html"><i class="las la-shopping-cart"style="font-size:23px;"></i></a></li>
+            <li><a href="login.html"><BUTTON class="btn-cnx">Se connecter</BUTTON></a></li>
+        </ul>
+    
+    </div>
+</section>  
+
+
+
+<div class="panier">
+ 
+  
+ <form action="panier.php"method="post">
+  <!-- Produit #1 -->
+  <div class="item">
+ 
+    <div class="image">
+      <img src="images/a1.jpg" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>Lunette de soleil</span>
+      <br>
+      <span>Gucci</span>
+      <br>
+      <span>noir</span>
+    </div>
+ 
+    <div class="quantité">
+       <input value=1 type="number" >
+      
+    </div>
+ 
+    <div class="total-price">549</div>
+  </div>
+ <hr> 
+ 
+  <!-- Product #2 -->
+  <div class="item">
+    
+ 
+    <div class="image">
+      <img src="images/a2.jpg" alt=""/>
+    </div>
+ 
+    <div class="description">
+      <span>lunette de soleil</span>
+      <br>
+      <span>Gucci</span>
+      <br>
+      <span>noir</span>
+    </div>
+ 
+    <div class="quantité">
+       <input value=1 type="number">
+
+    </div>
+ 
+    <div class="total-price">870</div>
+  </div>
+  <hr>
+ 
+  <!-- Product #3 -->
+  <div class="item">
+    
+ 
+    <div class="image">
+      <img src="images/a1.jpg" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>lunette de soleil</span>
+      <br>
+      <span>Gucci</span>
+      <br>
+      <span>Brown</span>
+    </div>
+ 
+    <div class="quantité">
+       <input value=1 type="number">
+     
+    </div>
+ 
+    <div class="total-price">349</div>
+     
+</div>
+<hr>
+                     
+                      <label>Somme total a payer</label>
+                      <input readonly="" id="total" name="total" type="text" class="text-warning bg-dark form-control"></input>
+                    <br>
+                    <br>
+                    <br>
+
+                    <input type="submit" name="Achetez" class="Achetez"></input>
+                 </div>
+             </div>     
+</div>
+
+
+</body>
+</html>
