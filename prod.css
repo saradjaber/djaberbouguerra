@@ -1,0 +1,228 @@
+#header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background:#c9c0bb;
+}
+#header h1{
+  font-weight: 300;
+  font-family: cursive;
+  font-style:oblique 5deg;
+  text-transform: capitalize;
+}
+.recherche{
+  top: 50%;
+  left: 50%;
+  height: 29px;
+}
+.recherche:hover  .recherche-text{
+  width: 150px;
+  padding: 0 6px;
+}
+.recherche:hover .recherche-btn{
+  background: #2D567C;
+}
+.recherche-btn{
+  color: black;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.recherche-text{
+  border: none;
+  background: none;
+  float: left;
+  color: black;
+  font-size: 13px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+form .bx{
+  margin-top:37px;
+}
+.btn-cnx{
+width: 100px;
+height: 30px;
+background:#2D567C;
+border: 2px #2D567C; 
+margin-top: 4px ;
+color: white;
+font-size: 14px;
+border-radius: 10px;
+cursor: pointer;
+}
+#barre-menu{
+  display: flex;
+  align-items: center;
+}
+#barre-menu li{
+  list-style: none;
+  padding: 0 30px;
+}
+#barre-menu li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+#barre-menu li a:hover{
+  color: #2D567C;
+}
+.sub_menu{
+  display: none;
+}
+
+#barre-menu li:hover .sub_menu{
+display: inline;
+position: absolute ;
+background:#c9c0bb;
+margin-top: 26px;
+right: 590px;
+}
+#barre-menu li:hover .sub_menu ul{
+display: block;
+margin: 12px;
+}
+#barre-menu li:hover .sub_menu ul li{
+width: 120px;
+padding: 10px;
+margin-top: 10px;
+border-bottom: 1px dotted black;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+s
+
+
+
+
+
+.produit{
+    height:600px
+  }
+  
+.star_rating{
+	user-select: none;
+}
+.star{
+	font-size: 1.5rem;
+	color: #ff9800;
+	background-color: unset;
+	border: none;
+}
+.star:hover{
+	cursor: pointer;
+}
+  
+  .img{
+    position: absolute;
+    top:60px;
+    left: 100px;
+    width: 200px;
+    height:300px
+  }
+  .card-body{
+    position:absolute;
+    left:800px;
+    top: 100px;
+    width: 300px;
+   
+  }
+  .detailproduit{
+    position:absolute;
+    height:600px;
+    left: 50px;
+
+    
+  }
+  .checkbox{
+    display:inline-flex;
+    align-items: center;
+   cursor: pointer;
+    
+  }
+  .buttons button{
+    width: 300px;
+    font: inherit;
+    border: 1px solid #1fb3bf;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color:#c9c0bb;
+    border-radius: 8px;
+    bottom: 5px;
+    position: relative;
+    top: 0px;
+    right: 10px;
+  
+  }
+  .buttons button:nth-child(1) i{
+    margin-right: 25px;
+    right: 500px;
+  }
+  .buttons button:hover{
+    color: white;
+    background-color: #1fb3bf;;
+  }
+  
+  .footer {
+  margin-top: 700px;
+  width: 70%;
+  padding: 29px 15%;
+  background: #c9c0bb;
+  color: black;
+ display: flex;
+ text-transform: capitalize;
+}
+.footer div{
+  text-align: center;
+  }
+.footer-end2{
+  flex-grow: 5;
+  padding-left: 10px;
+}
+.footer-end2:hover{
+    color: #2D567C;
+    padding-left: 10px;
+}
+.footer-end3:hover{
+    color: #2D567C;
+    padding-left: 10px;
+}
+.footer div h4{
+  font-weight: 670;
+  margin-top: 40px;
+  letter-spacing: 3px;
+}
+.footer-end1 a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 8px;
+}
+form input{
+  width: 410px;
+  height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 21px;
+  margin-bottom: 26px;
+  outline: none;
+  border: none;
+}
+.footer-end2 button{
+  background: lightgray;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 35px;
+  font-size: 17px;
+  cursor: pointer;
+}
