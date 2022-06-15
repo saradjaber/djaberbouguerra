@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'arial';
+}
+html,body{
+  display: flex;
+  height: 99%;
+  width: 99%;
+  place-items: center;
+  background: url("images/gallery.jpg") no-repeat;
+  background-size: cover;
+}
+.login{
+  position: center;
+  top: 10%;
+  left: 40%;
+  width: 400px;
+  background: rgb(223, 215, 215);
+  border-radius: 7px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.login-header{
+  text-align: center;
+  font-weight: normal;
+  margin-top: 10px;
+  width: 34%;
+  margin-left: 110px;
+  padding-bottom: 13px;
+  color:  #937c6f;
+}
+
+form{ 
+  padding: 20px;
+}
+.retour_btn{
+  color: black;
+  margin-bottom: 10px;
+  padding: 10%;
+  display: flex;
+  align-items: center;
+}
+form input{
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  outline: none;
+  padding: 15px 10px;
+  background:white;
+  margin: 18px auto;
+  border: 1px solid rgb(177, 173, 173);
+}
+
+.inputWithIcon input[type="text"]{
+  padding-left: 40px;
+}
+.inputWithIcon input[type="password"]{
+  padding-left: 40px;
+}
+.inputWithIcon{
+  position: relative;
+}
+.inputWithIcon  i{
+  position: absolute; 
+  padding: 11px 10px;
+}
+form input[type="submit"]{
+  background: rgb(12, 12, 12);
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 24px;
+ }
+
+form input[type="submit"]:hover{
+   background: #937c6f;
+
+}
+.txt1 {
+  font-size: 15px;
+  color: black;
+  text-align: center; 
+}
+.txt2 {
+  font-size: 15px;
+  color: #937c6f;
+  text-align: center;
+  font-weight: normal;
+}
+.txt2:hover{
+  color:#000;
+}
+.login-more{
+  float: center;
+  text-align: center;
+  margin-bottom: 30px;
+} 

@@ -1,0 +1,53 @@
+body{
+  background: url(images/gallery.jpg);
+  font-family: 'Times New Roman', serif;
+}
+#insc-form{
+  width: 416px;
+  margin-top: 0px;
+  margin-left: 30%;
+}
+#insc-form h1{
+  width: 34%;
+  margin: 0 auto;
+  padding-bottom: 13px;
+  color:  #937c6f;
+}
+form {
+  width:98%;
+  height: 525px;
+  padding: 40px;
+  border: 1px solid rgb(223, 215, 215);
+  background: rgb(223, 215, 215);
+}
+.retour_btn{
+  color: black;
+  margin-bottom: 1px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+input[type=text], input[type=password],input[type=mail] {
+  width: 100%;
+  padding: 10px 18px;
+  border-radius: 12px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid rgb(141, 129, 129);
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 13px 19px;
+  margin: 6px 0;
+  border-radius: 24px;
+  cursor: pointer;
+  width: 99%;
+}
+input[type=submit]:hover {
+  background-color:#937c6f;
+  border: 1px solid #937c6f;
+
+}

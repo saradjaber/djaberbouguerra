@@ -1,0 +1,253 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+#header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background:#c9c0bb;
+}
+#header h1{
+  font-weight: 300;
+  font-family: cursive;
+  font-style:oblique 5deg;
+  text-transform: capitalize;
+}
+.recherche{
+  top: 50%;
+  left: 50%;
+  height: 29px;
+}
+.recherche:hover  .recherche-text{
+  width: 150px;
+  padding: 0 6px;
+}
+.recherche:hover .recherche-btn{
+  background: #2D567C;
+}
+.recherche-btn{
+  color: black;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.recherche-text{
+  border: none;
+  background: none;
+  float: left;
+  color: black;
+  font-size: 13px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+form .bx{
+  margin-top:37px;
+}
+.btn-cnx{
+width: 100px;
+height: 30px;
+background:#2D567C;
+border: 2px #2D567C; 
+margin-top: 4px ;
+color: white;
+font-size: 14px;
+border-radius: 10px;
+cursor: pointer;
+}
+#barre-menu{
+  display: flex;
+  align-items: center;
+}
+#barre-menu li{
+  list-style: none;
+  padding: 0 30px;
+}
+#barre-menu li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+#barre-menu li a:hover{
+  color: #2D567C;
+}
+.sub_menu{
+  display: none;
+}
+
+#barre-menu li:hover .sub_menu{
+display: inline;
+position: absolute ;
+background:#c9c0bb;
+margin-top: 26px;
+right: 590px;
+}
+#barre-menu li:hover .sub_menu ul{
+display: block;
+margin: 12px;
+}
+#barre-menu li:hover .sub_menu ul li{
+width: 120px;
+padding: 10px;
+margin-top: 10px;
+border-bottom: 1px dotted black;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+
+#pa-head{
+  background: url("images/capture1.png")no-repeat;
+  text-align: center;
+  height: 250px;
+  background-size: cover;
+}
+.hachtage h1{
+    font-size: 45px;
+}
+
+.produits-title {
+  margin: 3rem 0 7rem 0;
+  text-align: center;
+}
+.produits-title h1 {
+  font-size: 2rem;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+
+.produits-title h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -20%;
+  transform: translate(-50%, -50%);
+  background-color: #DEB887;
+  width: 50%;
+  height: 0.4rem;
+  z-index: 1;
+}
+
+.produits{
+  margin-left: 60px;
+  margin-top: 1px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.produit{
+  display:flex;
+  flex-wrap:wrap;
+}
+.produit .cards{
+  margin-right: 40px;
+  cursor:pointer;
+  margin-bottom:40px;
+}
+.produit .cards img{
+  width: 380px;
+
+}
+.produit .cards .card-info{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.produit :hover{
+  color: #DEB887;
+}
+.cards{
+  flex-basis: 25%;
+  transition: transform 0.4s;
+}
+.cards:hover{
+  transform: translateY(-8px);
+}
+.cards .buy-btn{
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3 all;
+  border-radius: 0px;
+  width: 30px;
+  height: 28px;
+  border-color: lightgray;
+  background: lightgray;
+}
+.cards:hover .buy-btn{
+  transform: translateY(0);
+  opacity: 1;
+}
+.footer {
+  margin-top: 10px;
+  width: 70%;
+  padding: 29px 15%;
+  background: #c9c0bb;
+  color: black;
+ display: flex;
+ text-transform: capitalize;
+}
+.footer-end1 :hover{
+    color: #2D567C;
+    padding-left: 10px;
+}
+
+.footer div{
+  text-align: center;
+  }
+.footer-end2{
+  flex-grow: 5;
+  padding-left: 10px;
+}
+.footer-end2:hover{
+    color: #2D567C;
+    padding-left: 10px;
+}
+.footer-end3:hover{
+    color: #2D567C;
+    padding-left: 10px;
+}
+.footer div h4{
+  font-weight: 670;
+  margin-top: 40px;
+  letter-spacing: 3px;
+}
+.footer-end1 a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 8px;
+}
+form input{
+  width: 410px;
+  height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 21px;
+  margin-bottom: 26px;
+  outline: none;
+  border: none;
+}
+.footer-end2 button{
+  background: lightgray;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 35px;
+  font-size: 17px;
+  cursor: pointer;
+}
